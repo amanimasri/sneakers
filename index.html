@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sneakers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="assets/images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="main-container centered-container shadow-lg">
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <!-- Container wrapper -->
+                <div class="container-fluid">
+                    <!-- Toggle button -->
+                    <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <!-- Collapsible wrapper -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Navbar brand -->
+                        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                            <img src="assets/images/favicon.jpg" height="30" alt="Sneakers Logo" loading="lazy" />
+                            <span id="brand-name">أحذية رياضية</span>
+                        </a>
+                        <!-- right links -->
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">المجموعات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">الرجالي</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">النسائي</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">من نحن</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">تواصل معنا</a>
+                            </li>
+                        </ul>
+                        <!-- right links -->
+                    </div>
+                    <!-- Collapsible wrapper -->
+
+                    <!-- Left elements -->
+                    <div class="d-flex align-items-center">
+                        <!-- Icon -->
+                        <div class="text-reset me-5" href="#">
+                            <i class="fas fa-shopping-cart ms-3 fa-xl"></i>
+                            <i class="far fa-user-circle fa-2xl"></i>
+                        </div>
+                    </div>
+                    <!-- Left elements -->
+                </div>
+                <!-- Container wrapper -->
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <main>
+            <div class="row align-items-start">
+                <div class="col-6 text-section">
+                    <p id="company-title">شركة أحذية رياضية</p>
+                    <h4 id="desc-title">أحذية رياضية مريحة وذات جودة عالية </h4>
+                    <p id="desc"> الحذاء الرياضي هو حذاء يستخدمه الرياضيون لممارسة النشاط البدني. وهو حذاء مختلف من ناحية التصميم
+                        والشكل عن الحذاء العادي ويكون مرناً ويوفر الراحة للرياضي.
+                    </p>
+                    <div class="price">
+                        <span id="new-price">$125.00</span>
+                        <span id="discount">%50</span>
+                        <div id="old-price">$250.00</div>
+                    </div>
+                    <div class="btn-action d-flex justify-content-between">
+                        <div class="btn-amount d-flex justify-content-end align-items-center">
+                            <span><i class='fas fa-minus'></i></span>
+                            <span>0</span>
+                            <span><i class='fas fa-plus'></i></span>
+                        </div>
+                        <div class="addToCart">
+                            <button class="btn btn-success" id="btn-cart">
+                                <i class="fas fa-shopping-cart ms-3"></i>
+                                أضف إلى السلة
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 img-section d-flex flex-column align-items-center">
+                    <div class="big-img w-75">
+                        <img src="assets/images/pairs.jpg" class="w-100">
+                    </div>
+                    <div class="small-imgs d-flex justify-content-between">
+                        <img id="active" src="assets/images/pairs.jpg">
+                        <img src="assets/images/right.jpg" >
+                        <img src="assets/images/top.jpg" >
+                        <img src="assets/images/back.jpg" >
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <!-- /Main Container -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --main-color: #476dbf;
+}
+
+body {
+    /* background: url(assets/images/banner.jpg) no-repeat; 
+    background-size: cover; */
+    font-family: 'Alexandria', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.centered-container{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    margin: auto;
+}
+.main-container{
+    width: 75vw;
+    height: 90vh;
+    background-color: #fff;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+header *{
+    font-size: 10px;
+}
+nav{
+    border-bottom: 1px solid rgba(103, 103, 103, 0.1);
+    margin-left: 75px;
+    margin-right: 75px;
+}
+#brand-name{
+    font-size: 15px;
+}
+
+.nav-link{
+    color: #536471;
+}
+
+main{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text-section{
+    font-size: small;
+    padding-left: 100px;
+}
+
+i{
+    color: var(--main-color);
+}
+
+.small-imgs img{
+    border:1px solid var(--main-color);
+    border-radius: 5px;
+}
+.small-imgs img{
+    margin-left: 5px !important;
+    width: 20%!important;
+}
+
+#company-title{
+    color: var(--main-color);
+}
+
+#desc{
+    text-align: justify;
+    line-height: 30px;
+}
+
+#desc-title{
+    padding-bottom: 5px;
+    line-height: 40px;
+}
+.price{
+    margin-bottom: 10px;
+}
+#new-price{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#discount{
+    color: var(--main-color);
+    background-color: rgba(71, 109, 191,0.6);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#old-price{
+    color: #a2a5a7;
+}
+
+.btn-amount *{
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: bold;
+} 
+.fa-minus{
+padding-left: 15px;
+}
+.fa-plus{
+    padding-right: 15px;
+}
+
+.btn-amount{
+    background-color: #e2e7ea; 
+    border-radius: 5px;
+}
+
+#btn-cart{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 10px;
+    font-weight: 300;
+    background-color: var(--main-color) !important;
+}
+#btn-cart i{
+    color: #fff;
+}
+
+#active{
+    opacity: 0.6;
+    background-color: var(--main-color) !important;
+    border: 3px solid var(--main-color);
+}
